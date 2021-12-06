@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, {useEffect, useState} from 'react'
+import { Quote } from './components/Quote';
+import './css/index.css';
+import GetQuotes from './helper/GetQuotes';
 function App() {
+
+  const [quote, setQuote] = useState({
+    anime: null,
+    character: null,
+    quote: null
+});
+
+
+ const updateQuotes = async () =>{
+         await GetQuotes()
+         .then(data => setQuote(data))
+ }
+
+ useEffect(  async () => {
+     await updateQuotes();
+ }, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Quote data={quote}/>
+      <button onClick={updateQuotes} className='btn'>Generate a new quote</button>
     </div>
   );
 }
