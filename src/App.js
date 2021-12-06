@@ -16,8 +16,8 @@ function App() {
          .then(data => setQuote(data))
  }
 
- useEffect(  async () => {
-     await updateQuotes();
+ useEffect( () => {
+     updateQuotes();
  }, [])
 
   return (
