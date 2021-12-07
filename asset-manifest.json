@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/animequotesgenerator.io/static/css/main.2f833c2f.chunk.css",
-    "main.js": "/animequotesgenerator.io/static/js/main.96248d30.chunk.js",
-    "main.js.map": "/animequotesgenerator.io/static/js/main.96248d30.chunk.js.map",
-    "runtime-main.js": "/animequotesgenerator.io/static/js/runtime-main.ba7d07fe.js",
-    "runtime-main.js.map": "/animequotesgenerator.io/static/js/runtime-main.ba7d07fe.js.map",
-    "static/js/2.6caac0d3.chunk.js": "/animequotesgenerator.io/static/js/2.6caac0d3.chunk.js",
-    "static/js/2.6caac0d3.chunk.js.map": "/animequotesgenerator.io/static/js/2.6caac0d3.chunk.js.map",
-    "index.html": "/animequotesgenerator.io/index.html",
-    "static/css/main.2f833c2f.chunk.css.map": "/animequotesgenerator.io/static/css/main.2f833c2f.chunk.css.map",
-    "static/js/2.6caac0d3.chunk.js.LICENSE.txt": "/animequotesgenerator.io/static/js/2.6caac0d3.chunk.js.LICENSE.txt"
+    "main.css": "/animequotesgenerator/static/css/main.2f833c2f.chunk.css",
+    "main.js": "/animequotesgenerator/static/js/main.96248d30.chunk.js",
+    "main.js.map": "/animequotesgenerator/static/js/main.96248d30.chunk.js.map",
+    "runtime-main.js": "/animequotesgenerator/static/js/runtime-main.d0901564.js",
+    "runtime-main.js.map": "/animequotesgenerator/static/js/runtime-main.d0901564.js.map",
+    "static/js/2.6caac0d3.chunk.js": "/animequotesgenerator/static/js/2.6caac0d3.chunk.js",
+    "static/js/2.6caac0d3.chunk.js.map": "/animequotesgenerator/static/js/2.6caac0d3.chunk.js.map",
+    "index.html": "/animequotesgenerator/index.html",
+    "static/css/main.2f833c2f.chunk.css.map": "/animequotesgenerator/static/css/main.2f833c2f.chunk.css.map",
+    "static/js/2.6caac0d3.chunk.js.LICENSE.txt": "/animequotesgenerator/static/js/2.6caac0d3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ba7d07fe.js",
+    "static/js/runtime-main.d0901564.js",
     "static/js/2.6caac0d3.chunk.js",
     "static/css/main.2f833c2f.chunk.css",
     "static/js/main.96248d30.chunk.js"
